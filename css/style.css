@@ -5545,6 +5545,10 @@ body > #notice {
 	background: #403346;
 	color: #000000;
 	font-size: 16px;
+	z-index: 99999;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
 }
 body > #notice p {
 	line-height: 24px;

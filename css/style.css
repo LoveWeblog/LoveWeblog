@@ -5530,9 +5530,9 @@ body > .overlay {
 	left: 0;
 	display: block;
 	z-index: 9999;
-	opacity: 0.75;
-	-webkit-opacity: 0.75;
-	-moz-opacity: 0.75;
+	opacity: 0.95;
+	-webkit-opacity: 0.95;
+	-moz-opacity: 0.95;
 }
 body > #notice {
 	width: 480px;
@@ -5543,7 +5543,7 @@ body > #notice {
 	margin: -80px 0 0 -240px;
 	padding: 32px;
 	background: #403346;
-	color: #000000;
+	color: #dddddd;
 	font-size: 16px;
 	z-index: 99999;
 	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
@@ -5554,6 +5554,10 @@ body > #notice p {
 	line-height: 24px;
 	margin: 0;
 	padding: 0;
+}
+body > #notice img {
+	max-width: 48px;
+	fill: #ffffff;
 }
 
 
